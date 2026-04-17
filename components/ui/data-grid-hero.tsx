@@ -57,7 +57,7 @@ export default function DataGridHero({
     const container = gridRef.current;
     if (!container) return;
 
-    container.innerHTML = "";
+    container.replaceChildren();
     container.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
     container.style.gridTemplateRows = `repeat(${rows}, 1fr)`;
     container.style.gap = `${spacing}px`;

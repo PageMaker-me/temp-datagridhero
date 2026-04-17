@@ -1,5 +1,5 @@
-import DemoOne from "@/components/demo";
+import DataGridHeroDemo from "@/components/demo";
 
 export default function Home() {
-  return <DemoOne />;
+  return <DataGridHeroDemo />;
 }

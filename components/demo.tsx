@@ -19,7 +19,7 @@ type HeroConfig = {
   background: string;
 };
 
-export default function DemoOne() {
+export default function DataGridHeroDemo() {
   const [cfg, setCfg] = useState<HeroConfig>({
     rows: 25,
     cols: 35,
